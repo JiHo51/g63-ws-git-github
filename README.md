@@ -6,3 +6,4 @@ Command: "git log" - Shows cronological list of commits made in the repo. Who ma
 Web page GitHub: https://github.com/User account name/repo name - Create a new GitHub repository. 
 Command: "git remote add origin https://github.com/User account name/repo name.git" - Links Local Repository to Remote Repository at GitHub. 
 Command: "git remote -v" - Verifies the connection between Local Repository and Remote Repository. 
+Command: "git push -u origin main" - First push to new repo: "-u": Set the upstream, Upload local "main" branch to remote "origin" (GitHub repo URL). 
