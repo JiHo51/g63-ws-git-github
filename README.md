@@ -7,3 +7,4 @@ Web page GitHub: https://github.com/User account name/repo name - Create a new G
 Command: "git remote add origin https://github.com/User account name/repo name.git" - Links Local Repository to Remote Repository at GitHub.<br>
 Command: "git remote -v" - Verifies the connection between Local Repository and Remote Repository.<br>
 Command: "git push -u origin main" - First push to new repo: "-u": Set the upstream, Upload local "main" branch to remote "origin" (GitHub repo URL).<br>
+Command: "git push" - Upload new commits to Remote Repository (GitHub), after the first push (daily syncing).<br>
