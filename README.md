@@ -8,3 +8,4 @@ Command: "git remote add origin https://github.com/User account name/repo name.g
 Command: "git remote -v" - Verifies the connection between Local Repository and Remote Repository.<br>
 Command: "git push -u origin main" - First push to new repo: "-u": Set the upstream, Upload local "main" branch to remote "origin" (GitHub repo URL).<br>
 Command: "git push" - Upload new commits to Remote Repository (GitHub), after the first push (daily syncing).<br>
+Command: "git add .gitignore" - Adds only changed file ".gitignore" in current folder to the Staging Area.<br>
