@@ -9,3 +9,8 @@ Command: "git remote -v" - Verifies the connection between Local Repository and 
 Command: "git push -u origin main" - First push to new repo: "-u": Set the upstream, Upload local "main" branch to remote "origin" (GitHub repo URL).<br>
 Command: "git push" - Upload new commits to Remote Repository (GitHub), after the first push (daily syncing).<br>
 Command: "git add .gitignore" - Adds only changed file ".gitignore" in current folder to the Staging Area.<br>
+<br>
+--- Clone, reconnect cloned repo to new repo in your own GitHub account and Re-Publish -------------------------------------<br>
+Command: "git clone url" - Clones Remote Repository from URL-address to active directory (the directory/folder you are in).<br>
+Example:<br>
+git clone https://github.com/Lexicon-Smaland/Hello-World.git<br>
